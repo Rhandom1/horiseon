@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-us">
  
-<head>
+<header>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Renamed title -->
     <title>Horiseon SEO</title>
-</head>
+</header>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <!-- changed to header tag -->
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1> 
+                         <!-- changed to nav tag -->
+        <nav>
+            <a href="#search-engine-optimization">Search Engine Optimization</a>
+            <a href="#online-reputation-management">Online Reputation Management</a>
+            <a href="#social-media-marketing">Social Media Marketing</a>
+        </nav>
+    </header>
 
-    <!-- Would consider resizing the image but I understand this is a design choice -->
+    
     <div class="hero"></div>
 
     <div class="content">
-        <!-- add id to search-engine-optimization div -->
+        <!-- add id tags to div -->
         <!-- add an alt option for all images? -->
-        <div class="descriptor">
+        <div class="descriptor" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -40,7 +34,7 @@
             </p>
         </div>
 
-        <div  class="descriptor">
+        <div  class="descriptor" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -48,7 +42,7 @@
             </p>
         </div>
 
-        <div class="descriptor">
+        <div class="descriptor" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
