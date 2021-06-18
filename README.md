@@ -5,3 +5,7 @@ The purpose of this project was to clean up the code by finding ways to group li
 Project link: file:///C:/Users/shawn/OneDrive/Desktop/homework/horiseon2.0/horiseon/Develop/index.html
 
 Project Repo: https://github.com/Rhandom1/horiseon
+
+./assets/images/horiseon.png
+
+
