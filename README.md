@@ -6,6 +6,6 @@ Project link: file:///C:/Users/shawn/OneDrive/Desktop/homework/horiseon2.0/horis
 
 Project Repo: https://github.com/Rhandom1/horiseon
 
-!(./assets/images/horiseon.png)
+![Horiseon Website](assets/images/horiseon1.png)
 
 
